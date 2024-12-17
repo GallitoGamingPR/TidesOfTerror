@@ -43,7 +43,7 @@ We then added a larger cube and placed 4 floating points on each corner to simul
 
 We tested it to see how it reacted to a small block on top of the large cube, then added mass to the cube on top to observe if it stayed afloat after being struck by a heavy object.
 
-![Image](Image/13.png)
+![Image](Image/13.gif)
 
 We created a large cube to simulate the body and added the mesh of the **Boat Prefab** from assets.
 
@@ -51,27 +51,27 @@ We created a large cube to simulate the body and added the mesh of the **Boat Pr
 
 We simulated the body using a block, as using the boat's geometry directly caused physics glitches due to the lack of symmetry. We then created both the **Player** and **Enemy Prefabs**.
 
-![Image](Image/15.png)
+![Image](Image/15.gif)
 
 We then created a script for **Boat Movement**, aiming to make the movement as realistic as possible. We added features to control speed, acceleration, turn speed, and drag.
 
-![Image](Image/16.png)
+![Image](Image/16.gif)
 
 Next, we created a **CannonController Script** to add aiming, shooting, and effects to the cannons. We created a **CannonBall Prefab** to shoot and a **Smoke Prefab** for the shooting effect. We then added an **Explosion Effect** for when the cannonball made contact with something.
 
-![Image](Image/17.png)
+![Image](Image/17.gif)
 
 Here we used the **Cinemachine Package** from Unity to add a third-person view of the player's boat.
 
-![Image](Image/18.png)
+![Image](Image/18.gif)
 
 We then added a feature so that when the boat reaches a life value of 0, it starts to slowly sink. After a few seconds, it disappears and drops a barrel that floats up.
 
-![Image](Image/19.png)
+![Image](Image/19.gif)
 
 The barrel is designed so that when a player or enemy with less than maximum life goes over it, they pick it up, and it restores life to them, creating a **Healing System** in the game.
 
-![Image](Image/20.png)
+![Image](Image/20.gif)
 
 ## AI Creation
 
@@ -79,16 +79,18 @@ Now let's move on to creating AI.
 
 We created a **GameObject** in the enemy prefab with the code for the AI, which includes the **EnemyFSM** and **Sight Script** to give the AI its intelligence.
 
-![Image](Image/20.png)
+![Image](Image/21.png)
 
 Here is the AI in 2 of its four stages: **Chasing Player** and **Rotating to Attack Player**.
 
-![Image](Image/20.png)
+![Image](Image/22.gif)
 
 When the player is not near the AI, the AI is designed to **Wander Around**. The last stage is a **Death Stage** to prevent the AI from shooting during the death animation.
 
-![Image](Image/21.png)
+![Image](Image/23.gif)
 
 We then added **Post Processing** to the **GlobalVolume Asset** to make the game look more stylized. Additionally, we added fog in **Window > Rendering > Lighting > Environment Tab** to simulate fog in the distance.
 
-![Image](Image/21.png)
+![Image](Image/24.png)
+![Image](Image/25.png)
+![Image](Image/26.gif)
