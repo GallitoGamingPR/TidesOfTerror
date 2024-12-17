@@ -94,3 +94,10 @@ We then added **Post Processing** to the **GlobalVolume Asset** to make the game
 ![Image](Image/24.png)
 ![Image](Image/25.png)
 
+## References
+1. Title: Creating a Third Person Camera using Cinemachine Free Look in Unity that Avoids Obstacles (Tutorial)  Link: https://youtu.be/jPU2ri4ZwxM
+2. Title: THIRD PERSON MOVEMENT in 11 MINUTES - Unity Tutorial Link: https://youtu.be/UCwwn2q4Vys
+3. Title: 3D Projectile Projection - Unity tutorial BEGINNER friendly Link: https://youtu.be/RnEO3MRPr5Y
+4. Title: How to create Invisible Walls in Unity 3D. Link: https://youtu.be/Bd6nhOrifcM
+5. Title: Bouyancy with Unity Rigibody. Link: https://youtu.be/iasDPyC0QOg?si=YWrI0Fna3BgRUgTm
+
