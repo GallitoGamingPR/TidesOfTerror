@@ -93,4 +93,4 @@ We then added **Post Processing** to the **GlobalVolume Asset** to make the game
 
 ![Image](Image/24.png)
 ![Image](Image/25.png)
-![Image](Image/26.gif)
+
