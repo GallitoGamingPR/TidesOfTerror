@@ -34,7 +34,7 @@ We then repeated this process with three more walls.
 
 ![Image](Image/9.png)
 
-After adding the water, we added a cube to the scene to code the floating. We attached a **Rigidbody** to the cube with a small amount of drag and created the **Buoyancy Script**, then added it to the cube.
+After adding the water, we added a cube to the scene to code the floating. We attached a **Rigidbody** to the cube with a small amount of drag and created the **Buoyancy Script**, then added it to the cube. We used this video as a reference for the buoyancy: https://www.youtube.com/watch?v=iasDPyC0QOg
 
 ![Image](Image/10.png)
 ![Image](Image/11.gif)
