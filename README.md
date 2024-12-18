@@ -94,6 +94,12 @@ We then added **Post Processing** to the **GlobalVolume Asset** to make the game
 ![Image](Image/24.png)
 ![Image](Image/25.png)
 
+# Project Demo
+
+Check out our project demo video:
+
+[![Watch the video](Image/25.png)](https://youtu.be/BhYF16ul0Rg)
+
 ## References
 1. Title: Creating a Third Person Camera using Cinemachine Free Look in Unity that Avoids Obstacles (Tutorial)  Link: https://youtu.be/jPU2ri4ZwxM
 2. Title: THIRD PERSON MOVEMENT in 11 MINUTES - Unity Tutorial Link: https://youtu.be/UCwwn2q4Vys
